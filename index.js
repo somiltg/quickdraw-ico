@@ -61,7 +61,7 @@ function noWhitespace(str) {
 module.exports = function generate(
     config = {
         drawingsDir: path.resolve(__dirname, 'drawings'),
-        outputDir: path.resolve(__dirname, 'svg'),
+        outputDir: path.resolve(__dirname, 'output/svg'),
         filter: {
             countrycode: 'US',
             words: [], // all words

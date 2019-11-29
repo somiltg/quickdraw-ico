@@ -14,8 +14,8 @@
     "http-server": "^0.10.0"
   },
   "scripts": {
-    "build": "./bin/generate.js -i ../drawings -o ../svg",
-    "preview": "http-server svg",
+    "build": "./bin/generate.js -i ../drawings -o ../output/svg",
+    "preview": "http-server output",
     "example": "http-server example"
   },
   "keywords": [

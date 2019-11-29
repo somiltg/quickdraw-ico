@@ -1,5 +1,7 @@
 svg/*.svg
-svg/converted
+output/converted
+output/svg
+output/montage
 node_modules
 drawings
 .DS_Store
