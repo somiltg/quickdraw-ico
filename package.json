@@ -4,7 +4,10 @@
   "description": "Generate SVG icons from Quick! Draw data",
   "main": "index.js",
   "dependencies": {
-    "d3-shape": "^1.2.0"
+    "canvas": "^2.6.0",
+    "canvg": "^2.0.0",
+    "d3-shape": "^1.2.0",
+    "jsdom": "^15.2.1"
   },
   "devDependencies": {
     "cli": "^1.0.1",
@@ -15,7 +18,10 @@
     "preview": "http-server svg",
     "example": "http-server example"
   },
-  "keywords": ["quick", "draw"],
+  "keywords": [
+    "quick",
+    "draw"
+  ],
   "author": "Nikolaus Piccolotto <hello@npiccolotto.com>",
   "license": "MIT"
 }

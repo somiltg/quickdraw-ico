@@ -7,7 +7,7 @@ const args = cli.parse({
     'drawings-dir': ['i', 'Where the drawings are', 'string'],
     'output-dir': ['o', 'Where to put icons', 'string'],
     'include-recognized': ['r', '', true, true],
-    'icons-per-word': ['n', 'How many icons per word to include', 'int', 1],
+    'icons-per-word': ['n', 'How many icons per word to include', 'int', 100],
     words: [
         'w',
         'Comma-separated list of words. Leave empty for all words.',
