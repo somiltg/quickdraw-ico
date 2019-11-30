@@ -45,4 +45,15 @@ This is a bit complicated.
     sh convert_to_png.sh
     # just modify the format in output line inside to change the format. 
     
+### Create montage for pix2pix
+  Required for concatenating sketch and image together as input to pix2pix. 
+  1. Add montage command that merges two files. `brew install montage`
+  2. Change the montage settings in `create-montage.sh`
+  3. Add classes to montage-input. Ensure that the sketch and image locations have folders with the same name as the class_name given in this file.
+    
+    #run the following command once done. 
+    cat montage_input | xargs sh create_montage.sh
+    
+    # Folder for each class with the montages would be created inside montage folder.
+    
 
